@@ -22,7 +22,18 @@ Azure Business Continuity Center Copilot assists users in protecting and recover
 
 1. Monitoring and Reporting 
 
-1. Learn and get help on capabilities. 
+1. Learn and get help on capabilities.
+
+With Azure Business Continuity Center Copilot (preview), you can ask questions about your Azure resources' protection directly within the Azure portal using natural language. The Copilot retrieves information about your resources and their protection status and guides you through relevant processes. 
+
+## Sample prompts 
+
+The following table lists all supported prompts:
+
+| Category | Prompts |
+| --- | --- |
+| [Security] | - "How many vaults are in poor security level?" <br> - "Show security level of all the vaults." <br> - "How can I increase the security level of a vault?"  |
+| [Management] | - "Show the BCDR real estate across all the subscriptions" <br> - "Show the datasources which are not protected in XXX regions" <br> - "Show me a list of all datasources which are protected only using ASR"  <br> |
 
 ## Next steps
 
