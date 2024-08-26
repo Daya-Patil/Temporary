@@ -11,7 +11,18 @@ ms.author: v-abhmallick
 
 # Tutorial: Manage your BCDR estate efficiently using Azure Business Continuity Center Copilot
 
-This article describes how to ....
+This article describes how to leverage Azure Business Continuity Center Copilot to make your business continuity journey easy.  
+
+## What is Azure Business Continuity Center Copilot? 
+Azure Business Continuity Center Copilot assists users in protecting and recovering their resources. Below are the key use cases for the ABCC Copilot MVP, prioritized by the four BCDR pillars: 
+
+1. Protection Management 
+
+1. Ransomware Protection 
+
+1. Monitoring and Reporting 
+
+1. Learn and get help on capabilities. 
 
 ## Next steps
 
