@@ -44,7 +44,7 @@ The following table lists all supported prompts:
 You can Ask Copilot for Azure Business Continuity Center(preview) to get information on your resource protection with prompts like **"Show the BCDR real estate across all the subscriptions"** <br>
 Copilot provides a summary of resources based on their protection status and generates an ARG query that you can run directly to get detailed information. Additionally, you can export the data as a CSV file from the ARG Query Explorer page. 
 
-::image type="content" source=".media/business-continuity-center-copilot/Show-BCDR-real-estate-Prompt.png" alt-text="Screenshot showing Copilot prompt." lightbox=".media/business-continuity-center-copilot/Show-BCDR-real-estate-Prompt.png":::
+:::image type="content" source="./media/business-continuity-center-copilot/Show-BCDR-real-estate-Prompt.png" alt-text="Screenshot showing Copilot prompt." lightbox="./media/business-continuity-center-copilot/Show-BCDR-real-estate-Prompt.png":::
 
 ## Next steps
 
