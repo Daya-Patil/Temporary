@@ -46,6 +46,32 @@ Copilot provides a summary of resources based on their protection status and gen
 
 :::image type="content" source="./media/business-continuity-center-copilot/Show-BCDR-real-estate-Prompt.png" alt-text="Screenshot showing Copilot prompt." lightbox="./media/business-continuity-center-copilot/Show-BCDR-real-estate-Prompt.png":::
 
+:::image type="content" source="./media/business-continuity-center-copilot/Show-BCDR-real-estate-result.png" alt-text="Screenshot showing Copilot BCDR estate result." lightbox="./media/business-continuity-center-copilot/Show-BCDR-real-estate-result.png":::
+
+
+2.	**Enhance the protection for your resources.** <br>
+In addition to providing a summary of your BCDR resources, Copilot also helps you improve resilience by enhancing the protection of existing resources. With this feature, you can enable protection using multiple available solutions. **Currently, this feature is only available for Azure VMs.**
+
+:::image type="content" source="./media/business-continuity-center-copilot/Show-BCDR-real-estate-result.png" alt-text="Screenshot showing Copilot BCDR estate result." lightbox="./media/business-continuity-center-copilot/Show-BCDR-real-estate-result.png":::
+
+**Step 1: Select your virtual machine.** <br>
+
+:::image type="content" source="./media/business-continuity-center-copilot/Enhance-protection-select-item.png" alt-text="Screenshot showing Copilot BCDR estate result." lightbox="./media/business-continuity-center-copilot/Enhance-protection-select-item.png":::
+
+**Step 2: Review your current protection details and move forward with enhance protection.** <br>
+
+:::image type="content" source="./media/business-continuity-center-copilot/Enhance-protection-select-solution.png" alt-text="Screenshot showing current protection details." lightbox="./media/business-continuity-center-copilot/Enhance-protection-select-solution.png":::
+
+**Step 3: You’ll be taken to a specific solution blade where you can configure Backup/DR.**  <br>
+
+:::image type="content" source="./media/business-continuity-center-copilot/Enhance-protection-configure-solution.png" alt-text="Screenshot showing configure solution." lightbox="./media/business-continuity-center-copilot/Enhance-protection-configure-solution.png":::
+
+2.	**View security level.** <br>
+
+You can ask Copilot for a summary of your security posture and get guidance on enhancing your security. 
+Start by asking, "Show security level for all datasources." Copilot will provide a summary of the number of datasources based on their security levels. You can also run an ARG query inline for more details or download the data as a CSV file.
+
+:::image type="content" source="./media/business-continuity-center-copilot/view-security-level.png" alt-text="Screenshot showing security levels for datasource." lightbox="./media/business-continuity-center-copilot/view-security-level.png":::
 ## Next steps
 
 - []()
