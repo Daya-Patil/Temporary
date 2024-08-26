@@ -93,6 +93,23 @@ You can also ask Copilot to help you enhance your security posture. Start by say
 
 :::image type="content" source="./media/business-continuity-center-copilot/change-security-level-softdelete-immutability.png" alt-text="Screenshot showing soft-delete and immutability changes." lightbox="./media/business-continuity-center-copilot/change-security-level-softdelete-immutability.png":::
 
+:::image type="content" source="./media/business-continuity-center-copilot/change-security-level-mua.png" alt-text="Screenshot showing Multi User Authorization changes." lightbox="./media/business-continuity-center-copilot/change-security-level-mua.png":::
+
+**5.	Trigger backup for resources .** <br>
+Copilot can help you get a list of datasources which don’t have any RP in a specified duration. This can help you monitor any backup failures and maintain SLA for recovery. Start by asking “How many datasources don’t have recovery point in last 7 days”. Copilot will give you a list of such resources and ARG query to get more information.
+
+:::image type="content" source="./media/business-continuity-center-copilot/view-recovery-point.png" alt-text="Screenshot showing items with no recovery points." lightbox="./media/business-continuity-center-copilot/view-recovery-point.png":::
+
+:::image type="content" source="./media/business-continuity-center-copilot/trigger-backup-for-recovery-point.png" alt-text="Screenshot asking to trigger backup." lightbox="./media/business-continuity-center-copilot/trigger-backup-for-recovery-point.png":::
+
+:::image type="content" source="./media/business-continuity-center-copilot/trigger-backup-script.png" alt-text="Screenshot showing script to trigger backup." lightbox="./media/business-continuity-center-copilot/trigger-backup-script.png":::
+
+:::image type="content" source="./media/business-continuity-center-copilot/trigger-backup-script-for-failed-jobs.png" alt-text="Screenshot showing script to trigger backup on failed jobs." lightbox="./media/business-continuity-center-copilot/trigger-backup-script-for-failed-jobs.png":::
+
+You can also get a list of failed backup jobs in a given time period.
+
+:::image type="content" source="./media/business-continuity-center-copilot/view-failed-jobs-script.png" alt-text="Screenshot showing script to view failed jobs." lightbox="./media/business-continuity-center-copilot/view-failed-jobs-script.png":::
+
 ## Next steps
 
 - []()
