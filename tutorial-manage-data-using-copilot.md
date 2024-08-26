@@ -66,12 +66,33 @@ In addition to providing a summary of your BCDR resources, Copilot also helps yo
 
 :::image type="content" source="./media/business-continuity-center-copilot/Enhance-protection-configure-solution.png" alt-text="Screenshot showing configure solution." lightbox="./media/business-continuity-center-copilot/Enhance-protection-configure-solution.png":::
 
-2.	**View security level.** <br>
+3.	**View security level.** <br>
 
 You can ask Copilot for a summary of your security posture and get guidance on enhancing your security. 
 Start by asking, "Show security level for all datasources." Copilot will provide a summary of the number of datasources based on their security levels. You can also run an ARG query inline for more details or download the data as a CSV file.
 
 :::image type="content" source="./media/business-continuity-center-copilot/view-security-level.png" alt-text="Screenshot showing security levels for datasource." lightbox="./media/business-continuity-center-copilot/view-security-level.png":::
+
+4.	**Increase security configuration.** <br>
+
+You can also ask Copilot to help you enhance your security posture. Start by saying, **"Increase security level for vault",** and Copilot will guide you through a series of steps to enable various security features.
+
+**Step 1: Select a vault, either a Recovery Services vault or a Backup vault.** <br>
+
+:::image type="content" source="./media/business-continuity-center-copilot/change-security-level-select-vault.png" alt-text="Screenshot showing select vault." lightbox="./media/business-continuity-center-copilot/change-security-level-select-vault.png":::
+
+**Step 2: Review the current security level and choose a target level to go to.** <br>
+
+:::image type="content" source="./media/business-continuity-center-copilot/change-security-level-view-vault-security-level.png" alt-text="Screenshot showing vault security level." lightbox="./media/business-continuity-center-copilot/change-security-level-view-vault-security-level.png":::
+
+**Step 3: Choose how you want to proceed. From portal or CLI tools.** <br>
+
+:::image type="content" source="./media/business-continuity-center-copilot/change-security-level-select-tool.png" alt-text="Screenshot showing tools available to change security level." lightbox="./media/business-continuity-center-copilot/change-security-level-select-tool.png":::
+
+**Step 4: Copilot will list through each security feature and try to update it so that the desired security level is reached.** For some security features like Multi-user authorization, which requires more manual intervention copilot will give you a list of steps that you can follow.
+
+:::image type="content" source="./media/business-continuity-center-copilot/change-security-level-softdelete-immutability.png" alt-text="Screenshot showing soft-delete and immutability changes." lightbox="./media/business-continuity-center-copilot/change-security-level-softdelete-immutability.png":::
+
 ## Next steps
 
 - []()
