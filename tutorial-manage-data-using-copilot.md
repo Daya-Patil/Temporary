@@ -34,6 +34,15 @@ The following table lists all supported prompts:
 | --- | --- |
 | [Security] | - "How many vaults are in poor security level?" <br> - "Show security level of all the vaults." <br> - "How can I increase the security level of a vault?"  |
 | [Management] | - "Show the BCDR real estate across all the subscriptions" <br> - "Show the datasources which are not protected in XXX regions" <br> - "Show me a list of all datasources which are protected only using ASR"  <br> |
+| [Monitoring] | - "Which data sources do not have RP/Recovery Point in the last 7 days" <br> - "How Many backup jobs failed in last 12 hours?" <br> - "Retrigger backup for all failed backup jobs in the last 24 hours" 
+
+
+## Examples 
+
+1. **View the BCDR real estate across all the subscriptions**
+You can Ask Copilot for Azure Business Continuity Center(preview) to get information on your resource protection with prompts like **"Show the BCDR real estate across all the subscriptions" ** <br>
+Copilot provides a summary of resources based on their protection status and generates an ARG query that you can run directly to get detailed information. Additionally, you can export the data as a CSV file from the ARG Query Explorer page. 
+
 
 ## Next steps
 
